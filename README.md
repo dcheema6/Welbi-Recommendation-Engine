@@ -1,11 +1,10 @@
 # Welbi-Recommendation-Engine
 
-This application uses express and graphQL to expose an API designed as per specs given
-for an interview with [Welbi](https://www.welbi.co/)
-API works with a static dataset of "programs" and "residents"
-and it returns programs that Engages the highest number of residents
-(ie. the programs maximizes number of unique participating residents within a given time span)
+### App info:
+- This application uses express and graphQL to expose an API designed as per specs given for an interview with [Welbi](https://www.welbi.co/)
+- API works with a static dataset of "programs" and "residents" and it returns programs that Engages the highest number of residents (ie. the programs maximizes number of unique participating residents within a given time span)
 
+### Explanation of design
 Time span was not part of the original specs, but give the specs were ambigious
 I decided to add timespan as it makes sense only makes optimize by
 maximizing number of unique participating residents only within a particular timespan
