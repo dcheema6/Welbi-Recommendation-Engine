@@ -35,5 +35,8 @@
     "*.{ts,tsx,js,json}": [
       "prettier --write"
     ]
+  },
+  "engines": {
+    "node": "16.x.x"
   }
 }
